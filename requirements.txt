@@ -2,3 +2,8 @@ scikit-learn
 pandas 
 numpy 
 matplotlib
+tqdm
+Pillow
+seaborn
+multiprocessing-logging
+requests
