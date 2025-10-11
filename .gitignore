@@ -1,0 +1,75 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.log
+*.tmp
+
+# =====================
+# Virtual Environments
+# =====================
+.venv/
+venv/
+env/
+ENV/
+
+# =====================
+# Jupyter
+# =====================
+.ipynb_checkpoints/
+.notebooks_checkpoint/
+*.ipynb_save
+
+# =====================
+# Data and Outputs
+# =====================
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.zip
+data/images/
+!data/sample_test_out.csv   # keep sample output file
+
+outputs/
+!outputs/test_out.csv       # keep submission file
+
+# =====================
+# Models
+# =====================
+models/
+!models/README.md           # keep readme if added
+
+# =====================
+# Logs / Cache / Misc
+# =====================
+logs/
+*.log
+*.txt~
+*.swp
+.DS_Store
+Thumbs.db
+.cache/
+__cache__/
+*.bak
+
+# =====================
+# Environment / Config Files
+# =====================
+*.env
+*.ini
+*.cfg
+*.yaml
+*.yml
+
+# =====================
+# IDE / Editors
+# =====================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
