@@ -16,7 +16,7 @@ __pycache__/
 # =====================
 # Images folder (25GB!)
 **/images/
-product_price_prediction/data/images/
+data/images/
 
 # CSV files
 *.csv
@@ -43,3 +43,5 @@ product_price_prediction/data/processed/
 .DS_Store
 
 
+
+backchodi.ipynb
