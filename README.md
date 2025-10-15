@@ -1,7 +1,7 @@
-# 🛒 Amazon ML Challenge 2025: From Data to Top 24% in 3 Days  
+# 🛒 Amazon ML Challenge 2025: From Data to Top 15% in 3 Days  
 ### A Deep Dive into Multi-Modal Product Price Prediction
 
-Welcome to the repository for my **Top 24% (Rank 1,200 / 5,000)** solution for the **Amazon ML Challenge 2025**.  
+Welcome to the repository for my **Top 24% (Rank 1,267 / 7000+)** solution for the **Amazon ML Challenge 2025**.  
 In just **3 days**, this project evolved from a simple baseline into a **multi-modal fusion pipeline** that combines product images and text descriptions to predict prices accurately.
 
 ---
@@ -35,7 +35,7 @@ We started simple and improved step-by-step — validating every choice.
 ---
 
 ## 🧠 Solution Architecture: Multi-Modal Fusion Pipeline
-
+```ruby
 📦 Input Data (Images, Text, Metadata)
 ┣━━ 🖼️ Image Pipeline
 ┃ ┣• Pretrained Models: ResNet50, EfficientNetB0, ViT, DenseNet121
@@ -50,10 +50,7 @@ We started simple and improved step-by-step — validating every choice.
 ┣• Gradient Boosting Core → LightGBM
 ┣• Ensemble → 70% LGBM + 30% XGBoost
 ┗• 💰 Final Price Predictions
-
-ruby
-Copy code
-
+```
 ---
 
 ## 💡 Key Learnings
