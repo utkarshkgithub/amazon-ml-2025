@@ -189,12 +189,12 @@ Hugging Face Transformers
 🤝 Contributing & Contact
 Contributions welcome!
 
-Author: Dhanu Gupta
+Author: Dhanu Gupta,Utkarsh Kumar,Somil Gupta, Ishant Singh [Team: PENTAGON]
 
 GitHub: @Dhanugupta0
 
 LinkedIn: [dhanugupta0](https://www.linkedin.com/in/dhanugupta0/)
-
+```
 <div align="center">
 Made with ❤️ and lots of ☕
 
