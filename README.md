@@ -135,7 +135,7 @@ Combined **ResNet**, **EfficientNet**, **ViT**, and **DenseNet** for diverse vis
 ### Prerequisites
 - Python 3.8+
 - CUDA 11.8+
-- 16GB+ RAM, 10GB+ Disk
+- 16GB+ RAM, 60GB+ Disk
 
 ### 🧭 Quick Start
 
@@ -189,11 +189,11 @@ Hugging Face Transformers
 🤝 Contributing & Contact
 Contributions welcome!
 
-Author: Your Name
+Author: Dhanu Gupta
 
-GitHub: @yourusername
+GitHub: @Dhanugupta0
 
-LinkedIn: Your LinkedIn
+LinkedIn: [dhanugupta0](https://www.linkedin.com/in/dhanugupta0/)
 
 <div align="center">
 Made with ❤️ and lots of ☕
