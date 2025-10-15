@@ -1,12 +1,12 @@
-# 🛒 Amazon ML Challenge 2025: From Data to Top 24% in 4 Days  
+# 🛒 Amazon ML Challenge 2025: From Data to Top 24% in 3 Days  
 ### A Deep Dive into Multi-Modal Product Price Prediction
 
 Welcome to the repository for my **Top 24% (Rank 1,200 / 5,000)** solution for the **Amazon ML Challenge 2025**.  
-In just **4 days**, this project evolved from a simple baseline into a **multi-modal fusion pipeline** that combines product images and text descriptions to predict prices accurately.
+In just **3 days**, this project evolved from a simple baseline into a **multi-modal fusion pipeline** that combines product images and text descriptions to predict prices accurately.
 
 ---
 
-## 🚀 The Journey: 4-Day Sprint to 50.31 SMAPE
+## 🚀 The Journey: 3-Day Sprint to 50.31 SMAPE
 
 Every ML competition is a story of iteration.  
 We started simple and improved step-by-step — validating every choice.
@@ -31,9 +31,7 @@ We started simple and improved step-by-step — validating every choice.
 | **Oct 10** | 🏁 Competition Kick-off & Initial EDA |
 | **Oct 11** | 💡 Built baseline (51.82 SMAPE) |
 | **Oct 12** | 🖼️ Added 4 image embedding models → 50.61 |
-| **Oct 13** | ⚙️ Optuna tuning → 50.31 |
-| **Oct 14** | 🏆 Final submission & ensemble confirmed |
-
+| **Oct 13** | ⚙️ Optuna tuning → 50.31 and 🏆 Final submission & ensemble confirmed |
 ---
 
 ## 🧠 Solution Architecture: Multi-Modal Fusion Pipeline
@@ -172,25 +170,6 @@ python inference.py \
 <details> <summary>📁 <strong>Project Structure</strong></summary>
 css
 Copy code
-amazon-ml-2025/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_image_processing.ipynb
-│   ├── 03_text_processing.ipynb
-│   └── 04_modeling.ipynb
-├── src/
-│   ├── features/
-│   ├── models/
-│   └── utils/
-├── models/
-│   ├── lgb_optimized.pkl
-│   └── xgboost_5359.pkl
-├── inference.py
-├── requirements.txt
-└── README.md
 </details>
 📚 References
 Papers
